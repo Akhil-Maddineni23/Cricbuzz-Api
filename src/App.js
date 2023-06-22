@@ -57,7 +57,7 @@ function App() {
         return Object.keys(value).length > 2;
       });
 
-      for(let i =0; i<3 ; i++){
+      for(let i =0; i<players.length ; i++){
         
         try{
           let url = `https://cricbuzz-cricket.p.rapidapi.com/img/v1/i1/c${players[i].imageId}/i.jpg`;
