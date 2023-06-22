@@ -1,0 +1,45 @@
+.myDiv {
+  border-color: red;
+  border-style: solid;
+  display: flex;
+  column-gap: 5px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  margin-left: 150px;
+  margin-right: 100px;
+  width: 80%;
+  height: 600px;
+  background-color: lightgray; /* Just to visualize the div */
+}
+
+.box1 {
+  border-color: red;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 30%;
+  height: 585px;
+  background-color: lightgray;
+}
+
+.box2 {
+  border-color: red;
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 70%;
+  height: 585px;
+  background-color: lightgray;
+}
+
+* {
+  text-align: center;
+}
+.main {
+  background-color: rgba(39, 145, 216, 0.71);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+
+ 
